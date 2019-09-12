@@ -8,7 +8,7 @@ const { historyApiFallback } = require('koa2-connect-history-api-fallback')
 const app = new Koa()
 const router = new Router()
 
-const port = 1234;
+const port = 8887;
 const baseUrl = path.resolve(__dirname, '../')
 
 app.use(historyApiFallback({ 
