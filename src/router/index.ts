@@ -7,17 +7,11 @@ import parent from '../components/parent.vue'
 Vue.use(vueRouter)
 
 const router = new vueRouter({
-    // mode: 'history',
     routes: [
         {
             path: '/lizi',
-            name: 'Canvas',
-            component: lizi,
-            // children: [{
-            //     path: '/',
-            //     name: 'Lizi',
-            //     component: parent
-            // }]
+            name: 'liziCanvas',
+            component: lizi
         }
     ]
 })
